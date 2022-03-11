@@ -1,0 +1,61 @@
+*{
+   
+    font-family: cursive;
+    border-radius: 800px;
+}
+
+body {
+    font-family: cursive;
+    background-color: antiquewhite;
+
+}
+header {
+    text-align: center;
+    color: antiquewhite;
+
+}
+header h1 {
+    font-size: 70px;
+    font-style: oblique;
+    -webkit-text-stroke-width: .25px;
+    -webkit-text-stroke-color: black;
+    padding: 0%;
+    border: 0%
+}
+
+header h2 {
+    font-size: 35px;
+    -webkit-text-stroke-width: .15px;
+    -webkit-text-stroke-color:black;
+    margin-top: -50px;
+}
+
+.aboutme {
+    border-radius: 50%;
+   /* position: relative; */
+   object-position: top;
+   height: 100px;
+   width: 500px;
+   /* flex-wrap: wrap; */
+    margin-left: 500px;
+    margin-top: 10px;
+    margin-bottom: 300px;
+    ;
+}
+
+.backimage {
+    background-image: url('/assets/images/norwaysunset.JPG');
+    /* background-position: 50% -50px; */
+    margin-top: 0%;
+    padding:0%;
+
+}
+.backimagestyle {
+    background-size: cover;
+    background-position: 0% 0;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+}
