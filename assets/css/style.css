@@ -6,6 +6,7 @@
 body {
   font-family: cursive;
   background-color: antiquewhite;
+  background-image: linear-gradient(antiquewhite 0%, #83b5d1 100%);
 }
 header {
   text-align: center;
@@ -27,27 +28,47 @@ header h2 {
   margin-top: -50px;
 }
 
-.aboutme {
-  display: flex 1 0 25;
-  border-radius: 50%;
+figure {
+  margin-top: -400px;
+}
+
+nav {
+  font-size: 40px;
   position: relative;
-  height: 100px;
+  line-height: 100px;
+  margin-left: 1000px;
+  scroll-margin-left: 500px;
+  margin-top: -500px;
+  margin-bottom: 500px;
+  padding: 25px;
+}
+
+.aboutme {
+  /* display: flex 1 0 25;  */
+  border-radius: 75px;
+  position: relative;
+  height: 175px;
   width: 500px;
-  flex-wrap: wrap;
-  margin-top: -375px;
-  margin-left: 350px;
-  /* margin-bottom: 300px; */
+  /* flex-wrap: wrap;  */
+  margin-top: -10px;
+  margin-left: 400px;
+  margin-bottom: 200px;
   background-color: #83b5d1;
-  background-size: 600px;
+  background-size: 400px;
 }
 
 .backimage {
   display: flex 25 25 25;
   background-image: url("/assets/images/norwaysunset.JPG");
   /* background-position: 50% -50px; */
+
   margin-top: 0%;
   padding: 0%;
 }
+.linear-gradient-background {
+  background-image: ;
+}
+
 .backimagestyle {
   background-size: cover;
   background-position: 0% 0;
@@ -58,17 +79,12 @@ header h2 {
   margin-right: auto;
 }
 
-.projects {
-  position: relative;
-  margin-left: 1000px;
-  scroll-margin-left: 500px;
-  margin-bottom: 500px;
-  padding: 25px;
-}
-
 .contactme {
   position: fixed;
-  margin-top: -500px;
+  text-align: center;
+  padding: 150px;
+  margin-left: 100px;
+  margin-top: -1000px;
 }
 
 #aboutmeheader {
@@ -77,4 +93,8 @@ header h2 {
   color: #673c4f;
   padding: 0%;
   margin-bottom: 0%;
+}
+
+#contactmeheader {
+  /* do I need to put this class here??*/
 }
