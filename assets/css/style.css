@@ -1,6 +1,6 @@
 * {
   font-family: cursive;
-  border-radius: 800px;
+ 
 }
 
 body {
@@ -8,86 +8,94 @@ body {
   background-color: antiquewhite;
   background-image: linear-gradient(antiquewhite 0%, #83b5d1 100%);
 }
+
+/*Header Font styles*/
 header {
   text-align: center;
   color: antiquewhite;
 }
-header h1 {
-  font-size: 70px;
+
+/*Header Navigation Bar*/ /*nav bar is currently under the hero image HOW DO I GET MY NAV BAR ON THE IMAGE*/
+header nav {
+  margin-right: 20px;
+  float: right;
+  font-size: 30px;
+  /* position: fixed; */
+  line-height: 0px;
+  margin-left: 0px;
+  scroll-margin-left: 500px;
+  margin-top: 0px;
+  margin-bottom: 00px;
+  padding: 0px;
+}
+
+.header nav ul {
+  list-style-type: none;
+}
+
+#header nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+/*Picture of Erica for About Me section*/
+figure {
+  margin-top: -400px;
+  width: 300px;
+  border: 6px #726e97;
+  border-style: groove;
+}
+
+/*Norwegian Sunset background image for header*/
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/norwaysunset.JPG");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 675px;
+  width: 100%;
+  margin-bottom: 00px;
+  margin-top: 0px; */
+ 
+  /* background-position: 50% -50px;
+  background-size: cover;
+  background-position: center;
+  width: 100%; 
+  padding: 5px; 
+  border: 5px #726e97;
+    border-style:ridge;  */
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* color: white; */
+  font-size: 90px;
   font-style: oblique;
-  -webkit-text-stroke-width: 0.25px;
-  -webkit-text-stroke-color: black;
+  /* line-height: 100px; */
+  /* -webkit-text-stroke-width: 0.01px;
+  -webkit-text-stroke-color: antiquewhite; */
   padding: 0%;
   border: 0%;
 }
 
-header h2 {
-  font-size: 35px;
-  -webkit-text-stroke-width: 0.15px;
-  -webkit-text-stroke-color: black;
-  margin-top: -50px;
-}
-
-figure {
-  margin-top: -400px;
-}
-
-nav {
-  font-size: 40px;
-  position: relative;
-  line-height: 100px;
-  margin-left: 1000px;
-  scroll-margin-left: 500px;
-  margin-top: -500px;
-  margin-bottom: 500px;
-  padding: 25px;
-}
-
-.aboutme {
-  /* display: flex 1 0 25;  */
-  border-radius: 75px;
-  position: relative;
-  height: 175px;
-  width: 500px;
-  /* flex-wrap: wrap;  */
-  margin-top: -10px;
-  margin-left: 400px;
-  margin-bottom: 200px;
-  background-color: #83b5d1;
-  background-size: 400px;
-}
-
-.backimage {
-  display: flex 25 25 25;
-  background-image: url("/assets/images/norwaysunset.JPG");
-  /* background-position: 50% -50px; */
-
-  margin-top: 0%;
-  padding: 0%;
-}
-.linear-gradient-background {
-  background-image: ;
-}
-
-.backimagestyle {
-  background-size: cover;
-  background-position: 0% 0;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  width: 98%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.contactme {
-  position: fixed;
+.hero-text2 {
   text-align: center;
-  padding: 150px;
-  margin-left: 100px;
-  margin-top: -1000px;
+  line-height: 60px;
+  position: absolute;
+  margin-top: 170px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: antiquewhite;
+  font-size: px;
+ 
 }
 
-#aboutmeheader {
+.aboutmeheader {
   margin-left: 550px;
   font-size: 35px;
   color: #673c4f;
@@ -95,6 +103,44 @@ nav {
   margin-bottom: 0%;
 }
 
-#contactmeheader {
-  /* do I need to put this class here??*/
+.aboutme {
+  border-radius: 75px;
+  position: relative;
+  height: 175px;
+  width: 500px;
+  margin-top: -10px;
+  margin-left: 400px;
+  margin-bottom: 200px;
+  background-color: #83b5d1;
+  background-size: 400px;
+}
+
+/* Works/Projects */
+.projects {
+  font-size: 50px;
+  position: relative;
+  line-height: 100px;
+  margin-left: 100px;
+  /* scroll-margin-left: 500px; */
+  margin-top: 0px;
+  margin-bottom: 00px;
+  padding: 25px;
+}
+
+.contactme {
+  text-align: center;
+  padding: 150px;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+/*Footer that will take you back to the top*/
+.totop {
+  color: black;
+  font-size: 20px;
+  position: fixed;
+  bottom: 20px;
+  width: 100%;
+  height: 35px; /* Height of the footer */
+  height: 10px;
 }

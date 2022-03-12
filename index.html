@@ -7,14 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
     <style>
-
-  img {
-        width: 300px;
-        padding: 5px;
-        border: 12px #726e97;
-        border-style: groove;
-      }
-
       /* unvisited link */
       a:link {
         color: #7f557d;
@@ -38,18 +30,35 @@
   </head>
 
   <body>
+<!--main image-->
+<section class="hero-image" id="top" alt="A Norwegian Sunset"></section>
       <!--Header-->
-<header class="backimage" class="backimagestyle" alt="Sunset">
-    <h1><strong>Hello, I'm Erica Breig</strong></h1>
-    
-    <h2>Welcome to my Portfolio</h2>
-
+<header>
+     
+      <h1 class="hero-text">Hello,<span class="hero-text"></span>I'm Erica!</h1> 
+      <h2 class="hero-text2">Welcome to my Portfolio</h2>
+      <nav>
+          <ul class="header nav ul">
+              <li id="header nav ul li">
+                  <a href="#about">About me</a>
+              </li>
+              <li>
+                  <a href="#works">Works</a>
+              </li>
+              <li>
+                  <a href="#contact">Contact me</a>
+              </li>
+          </ul>
+      </nav>
 </header>
+
+
+
    <!--Main--> 
 <main>
   
   <article>
-<h1 id="aboutmeheader"><strong>About me</strong></h1>
+<h1 class="aboutmeheader" id="about"><strong>About me</strong></h1>
 <br>
 <p class="aboutme">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Platea dictumst quisque sagittis purus. At consectetur lorem donec massa sapien faucibus et molestie ac.
   Iaculis urna id volutpat lacus laoreet non curabitur. Mi sit amet mauris commodo. Vitae aliquet nec ullamcorper sit amet risus nullam eget. Facilisi morbi tempus iaculis urna id volutpat lacus laoreet. Adipiscing at in tellus integer feugiat scelerisque varius. Nulla facilisi morbi tempus iaculis urna id. </p> 
@@ -59,24 +68,31 @@
     <img width="300px" src="/assets/images/ericainwv.jpg" alt="Picture of Erica"/>
   </figure>
 
-<!--Navigation bar-->
-<nav>
-  <h2>Works</h2>
-  <a href="#">Project 1</a>
+<!--Aside-->
+<aside class="projects" id="works">
+  <h2>Works </h2>
+  <a href="" alt="Link to first project">Project 1</a>
   <br>
-  <a href="#">Project 2</a>
+  <a href="" alt="Link to second project">Project 2</a>
   <br>
-  <a href="#">Project 3</a>
+  <a href="" alt="Link to third project">Project 3</a>
   <br>
-  <a href="#">Project 4</a>
-</nav>
+  <a href="" alt="Link to fourth project">Project 4</a>
+</aside>
 
-</main>
 <!--Contact me section-->
-<footer class="contactme">
-  <h3>Contact Me</h3>
-  Email: ericabreig@gmail.com Cell: 555-555-5555 
+<article class="contactme" id="contact">
+  <h3><strong>Contact Me:</strong></h3>
+  <p>Email: <a href="ericabreig@gmail.com" alt="Link to my email address">ericabreig@gmail.com </a> <span> Phone: +1-703-283-3946</span>
+    <p><a href="https://github.com/EricaBreig" alt="link to github">Github</a> </a></p>
+</article>
+</main>
+
+<!--Footer that takes you back to the top of the page-->
+<footer class="totop">
+<a href="#top">Back to the top</a>
 </footer>
+
 </body>
 
   </html>
