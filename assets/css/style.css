@@ -6,7 +6,7 @@
 body {
   font-family: cursive;
   background-color: antiquewhite;
-  background-image: linear-gradient(antiquewhite 0%, #83b5d1 100%);
+  background-image: linear-gradient(#e8dafb 0%, #caa8f5 75%);
 }
 
 /*Header Font styles*/
@@ -104,35 +104,41 @@ figure {
 }
 /*About me section*/
 .aboutme {
-  border-radius: 75px;
+  font-size: 20px;
+  color:white;
+  border: 5px groove #726e97;
   position: relative;
   height: 175px;
   width: 500px;
   margin-top: -10px;
   margin-left: 400px;
   margin-bottom: 200px;
-  background-color: #83b5d1;
+  background-color: #726e97;
   background-size: 400px;
+  
 }
 
 /* Works/Projects */
 .projects {
+  max-width: 1000px;
+  margin: auto;
   font-size: 50px;
   position: relative;
   line-height: 100px;
   margin-left: 100px;
   /* scroll-margin-left: 500px; */
-  margin-top: 100px;
+  margin-top: 200px;
   margin-bottom: 00px;
-  padding: 25px;
+  padding: 55px;
 }
 /*Contact me section*/
 .contactme {
   font-size: 35px;
   text-align: center;
   padding: 150px;
-  margin-left: 100px;
+  /* margin-left: 100px; */
   margin-top: 100px;
+ 
 }
 
 /*Footer that will take you back to the top*/
