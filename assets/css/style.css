@@ -25,10 +25,13 @@ nav {
   height: 60px;
   z-index: 1;
   background: #caa8f5;
+  text-decoration: none;
 }
 
 .nav1 {
   padding: 0 20px 0 0;
+  list-style: none;
+  text-decoration: none;
 }
 
 nav ul {
@@ -39,6 +42,11 @@ nav ul {
   width: 20%;
   justify-content: space-between;
   list-style: none;
+  text-decoration: none;
+}
+nav li {
+  list-style: none;
+  text-decoration: none;
 }
 
 /*Hero text classes*/
@@ -229,3 +237,16 @@ nav ul {
   color: #40553F;
 }
   */
+
+  @media (max-width 1149px) {
+  body {
+display:flex;
+flex-wrap: wrap;
+  }
+  .hero-image {
+    background: url("/assets/images/norwaysunset.JPG") no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    background-size: cover;
+}

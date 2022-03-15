@@ -1,10 +1,10 @@
-# H1 My Portfolio
+# My Portfolio
 
-## H2 Link to my website
+## Link to my website
 
 [My Portfolio](https://ericabreig.github.io/my-portfolio/)
 
-### H3 Description
+### Description
 
 This was my second homework assignment at coding bootcamp. The purpose of this assignment was to demonstrate my understanding of how to develope a webpage using CSS and HTML, and to have a portfolio webpage developed for when I'm ready to present my work to potential employers.
 
@@ -17,8 +17,8 @@ In this assignment, I learned the following:
 
 ![Full Portfolio Image](/assets/images/EricasPortfolio.png "Erica's Portfolio")
 
-#### H4 Credit
+#### Credit
 
 Myself, and lots of blood, sweat and tears
 
-##### H5 License
+##### License
