@@ -31,15 +31,14 @@
 
   <body>
 <!--main image-->
-<section class="hero-image" id="top" alt="A Norwegian Sunset"></section>
+
       <!--Header-->
 <header>
-     
-      <h1 class="hero-text">Hello, <span class="hero-text"></span>I'm Erica!</h1> 
-      <h2 class="hero-text2">Welcome to my Portfolio</h2>
+  <div class="hero-image" id="top" alt="A Norwegian Sunset">
       <nav>
-          <ul class="headernavlist1">
-              <li id="headernavlist2">
+        <h1 class="hero-text">Erica Breig</h1> 
+          <ul class="nav1">
+              <li>
                   <a href="#about">About me</a>
               </li>
               <li>
@@ -50,38 +49,66 @@
               </li>
           </ul>
       </nav>
+      
+      <h2 class="hero-text2">Welcome to my Portfolio</h2>
+    </div>
 </header>
-
-
 
    <!--Main--> 
 <main>
   
-  <article>
-<h1 class="aboutmeheader" id="about"><strong>About me</strong></h1>
-<br>
-<p class="aboutme">My name is Erica Breig, and I am a programmer based in the Washington D.C. area. Please check out my past projects below and feel free to reach to me if you're interested in working together to create a functional, semantic website that is asthetically pleasing and accessible for all. </p> 
+  <article >
+<div id="about">
+  <h1 id="aboutmeheader" ><strong>About me</strong></h1>
+<div class="aboutme">
+  <!-- <h1 id="aboutmeheader" ><strong>About me</strong></h1> -->
+   <img id="ericapic" src="/assets/images/ericainwv.jpg" alt="Picture of Erica"/>
+    <p id="aboutmetext">
+  My name is Erica Breig, and I am a programmer based in the Washington D.C. area. Please check out my past projects below and feel free to reach to me if you're interested in working together to create a functional, semantic website that is asthetically pleasing and accessible for all.
+ </p>
+</div>
+</div>
   </article>
 
-  <figure>
-    <img width="300px" src="/assets/images/ericainwv.jpg" alt="Picture of Erica"/>
-  </figure>
+  <!-- <figure>
+    <img class="ericapic" width="300px" src="/assets/images/ericainwv.jpg" alt="Picture of Erica"/>
+  </figure> -->
 
-<!--Aside-->
-<aside class="projects" id="works">
-  <h2>Works </h2>
+<!--Article of Works-->
+<article class="projects" id="works">
+  <h2 class="projectsheader">Works </h2>
+  <div id="projectlinks">
+
+  <!-- <div class="card-column">  -->
+    <p>
+    <figure class="thumbnail">
   <a href="https://github.com/EricaBreig/hw-1-code-refactor" alt="Link to first project">My First Code Refactor</a>
-  <br>
-  <a href="" alt="Link to second project">Project 2</a>
-  <br>
-  <a href="" alt="Link to third project">Project 3</a>
-  <br>
-  <a href="" alt="Link to fourth project">Project 4</a>
-</aside>
+  </figure> </p>
+ <p>
+    <figure class="thumbnail">
+    <a href="https://github.com/EricaBreig/hw-1-code-refactor" title="Coming Soon">
+      <img alt="Placeholder image of kitty" src="/assets/images/Mariannetail.gif"
+      width="150" height="150"> </a>
+  </figure></p>
+ <p>
+    <figure class="thumbnail">
+    <a href="" alt="Link to second project" title="Coming Soon" >Coming Soon</a> </figure>
+    </p>
+
+  <p>
+      <figure class="thumbnail">
+      <a href="" alt="Link to second project" title="Coming Soon" >Coming Soon</a>
+    </figure> </p>
+   <!-- </div> -->
+
+      </div>
+  
+    </article>
 
 <!--Contact me section-->
 <article class="contactme" id="contact">
   <h3><strong>Contact Me:</strong></h3>
+  <p></p>
   <p>Email: <a href="ericabreig@gmail.com" alt="Link to my email address">ericabreig@gmail.com </a> <p> Phone: +1-703-283-3946</p>
     <p><a href="https://github.com/EricaBreig" alt="link to github">Github</a></p>
     <p><a href="https://www.linkedin.com/in/erica-breig-0ba071ba/" alt="link to LinkedIn">LinkedIn</a></p>
