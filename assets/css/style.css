@@ -1,10 +1,20 @@
 body {
   background: linear-gradient(to bottom, #e8dafb 0%, #caa8f5 75%);
 }
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
 
 header {
   font-family: cursive;
+  margin: 0px;
+  padding: 0px;
 }
+/* article {
+   display:flex;
+   flex-direction: row;
+ } */
 
 .hero-image {
   background: url("/assets/images/norwaysunset.JPG") no-repeat;
@@ -17,7 +27,6 @@ nav {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   display: flex;
-  /* border:solid 3px black; */
   position: sticky;
   top: 0px;
   justify-content: space-between;
@@ -25,67 +34,65 @@ nav {
   height: 60px;
   z-index: 1;
   background: #caa8f5;
-  text-decoration: none;
 }
 
-.nav1 {
+/* .links {
   padding: 0 20px 0 0;
   list-style: none;
-  text-decoration: none;
-}
+
+} */
 
 nav ul {
   font: size 15px;
+  padding: 0 20px 0 0;
   margin-top: 5px;
   display: flex;
-  /* border:solid 3px black; */
   width: 20%;
   justify-content: space-between;
   list-style: none;
-  text-decoration: none;
-}
-nav li {
-  list-style: none;
-  text-decoration: none;
 }
 
 /*Hero text classes*/
 .hero-text {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  /* border:solid 3px black; */
   color: black;
   font-size: 25px;
   margin-top: 6px;
 }
 
 .hero-text2 {
-  /* border:solid 3px black; */
   text-align: center;
   line-height: 60px;
   font-size: 60px;
   color: antiquewhite;
-  margin-top: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid black 3px;
+  height: 300px;
+
+  /* margin-top: 170px; */
 }
 
 /*About me section*/
 .aboutme {
   font-family: cursive;
-  /* border: 5px solid black; */
   margin-top: -110px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   min-height: 100vh;
+  flex-wrap: wrap;
 }
+
 #aboutmeheader {
-  margin-top: 500px;
-  top: 200px;
   font-family: cursive;
-  /* border:solid 3px black; */
   font-size: 55px;
   color: #673c4f;
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 /*Picture of Erica for About Me section*/
@@ -94,9 +101,10 @@ nav li {
   height: 400px;
   border: solid 3px black;
   border-style: groove;
-  margin-top: 100px;
+  /* margin-top: 100px; */
   margin-left: 30px;
   border-radius: 70px;
+  display: flex;
 }
 
 #aboutmetext {
@@ -104,18 +112,18 @@ nav li {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: black;
-  /* border:solid 3px black; */
   width: 400px;
   height: 200px;
   margin: 0px 0px 0px 150px;
+  display: flex;
+  justify-content: center;
 }
 
 /* Works/Projects */
 .projectsheader {
   font-family: cursive;
-  /* border:solid 3px black; */
   font-size: 50px;
-  height: 600px;
+  /* height: 600px; */
   display: flex;
   align-items: center;
 }
@@ -123,30 +131,15 @@ nav li {
 .projects {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  /* border:solid 3px black; */
   font-size: 35px;
   min-height: 100vh;
   display: flex;
   justify-content: left;
 }
 
-/* .thumbnail p {
-  bottom: 20%;
-  left: 15%;
-  background-color: black;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-  position: absolute;
-  font-size: 40px;
-  background-color:#E7D6E8;
-  color: #40553F;
-} */
-
 #projectlinks {
   min-height: 100vh;
   height: 40px;
-  /* border: solid 3px black; */
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -171,14 +164,21 @@ nav li {
 }
 
 /*Contact me section*/
-.contactme {
+/* .contactme {
   font-family: cursive;
-  /* border:solid 3px black; */
   font-size: 35px;
   min-height: 100vh;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  justify-content:space-between;
+  align-items:center;
+} */
+.contactme {
+  font-family: cursive;
+  font-size: 35px;
+  min-height: 100vh;
+  text-align: center;
+  display: inline-flexbox;
+  justify-content: ;
 }
 
 /*Footer that will take you back to the top*/
@@ -186,7 +186,6 @@ nav li {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: black;
-  border: solid 3px black;
   font-size: 20px;
   position: fixed;
   bottom: 20px;
@@ -222,31 +221,31 @@ nav li {
     }
   */
 
-/*ADD THIS TO YOUR PROJECT LINKS*/
-/*  
-  .fuckshit {
-   bottom: 20%;
-  left: 15%;
-  background-color: black;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-  position: absolute;
-  font-size: 40px;
-  background-color:#E7D6E8;
-  color: #40553F;
-}
-  */
-
-  @media (max-width 1149px) {
-  body {
-display:flex;
-flex-wrap: wrap;
-  }
-  .hero-image {
-    background: url("/assets/images/norwaysunset.JPG") no-repeat;
+@media screen and (max-width: 820px) {
+  .projects {
     display: flex;
-    flex-wrap: wrap;
-    width:100%;
-    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+  }
+  #projectlinks {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contactme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
+
+/*
+@media screen and (max-width: 460px) {
+  .header-column-flex{
+      flex-direction: column;
+      align-items: center;
+  }
+}
+.enlarge-image:hover {
+  transform: scale(1.1);
+  font-weight: bolder;
+}  */
