@@ -69,7 +69,6 @@ nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: solid black 3px;
   height: 300px;
 
   /* margin-top: 170px; */
