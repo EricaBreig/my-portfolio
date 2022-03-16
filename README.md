@@ -15,10 +15,9 @@ In this assignment, I learned the following:
 - How to use a "hero image"
 - How to use images as links, and how to add buzz text over a link
 
-![Full Portfolio Image](/assets/images/EricasPortfolio.png "Erica's Portfolio")
+![Full Portfolio Image](/assets/images/ericasportfolio1.png "Erica's Portfolio")
 
 #### Credit
 
-Myself, and lots of blood, sweat and tears
+Myself, and lots of blood, sweat and tears.
 
-##### License
