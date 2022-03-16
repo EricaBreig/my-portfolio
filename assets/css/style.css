@@ -5,16 +5,13 @@ main {
   display: flex;
   flex-wrap: wrap;
 }
+/*Header, Nav bar, and hero image ==================================================*/
 
 header {
   font-family: cursive;
   margin: 0px;
   padding: 0px;
 }
-/* article {
-   display:flex;
-   flex-direction: row;
- } */
 
 .hero-image {
   background: url("/assets/images/norwaysunset.JPG") no-repeat;
@@ -35,12 +32,6 @@ nav {
   z-index: 1;
   background: #caa8f5;
 }
-
-/* .links {
-  padding: 0 20px 0 0;
-  list-style: none;
-
-} */
 
 nav ul {
   font: size 15px;
@@ -70,11 +61,9 @@ nav ul {
   justify-content: center;
   align-items: center;
   height: 300px;
-
-  /* margin-top: 170px; */
 }
 
-/*About me section*/
+/*About me section  ==================================================*/
 .aboutme {
   font-family: cursive;
   margin-top: -110px;
@@ -118,7 +107,7 @@ nav ul {
   justify-content: center;
 }
 
-/* Works/Projects */
+/* Works/Projects  ==================================================*/
 .projectsheader {
   font-family: cursive;
   font-size: 50px;
@@ -153,17 +142,17 @@ nav ul {
   display: block;
   z-index: 999;
 }
-
+/*Contact me section  ==================================================*/
 .contactme {
   font-family: cursive;
   font-size: 35px;
   min-height: 100vh;
   text-align: center;
   display: inline-flexbox;
-  justify-content:center;
+  justify-content: center;
 }
 
-/*Footer that will take you back to the top*/
+/*Footer that will take you back to the top ==================================================*/
 .totop {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -176,6 +165,7 @@ nav ul {
   display: block;
 }
 
+/*Dreaded Media Query section  ==================================================*/
 /*
   @media screen and (min-width: 768px) {
   /* on tablets, set columns to only be 50% of the width and not grow */
@@ -196,12 +186,7 @@ nav ul {
     width: 75%;
   
   }
-  .card-column {
-    flex: 0 0 33.333%;
-    max-width: 33.333%;
-      }
-    }
-  */
+}  */
 
 @media screen and (max-width: 820px) {
   .projects {
