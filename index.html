@@ -24,7 +24,7 @@
   <body>
 
     <!--Header-->
-    <header class="jumbotron jumbotron-fluid" id="top" alt="A Norwegian Sunset">
+    <header class="jumbotron jumbotron-fluid leFont" id="top" alt="A Norwegian Sunset">
         <!-- <div > -->
           <nav class="container navbar navbar-expand-lg navbar-light bg-transparent">
             <a class="navbar-brand" href="#top">Erica Breig</a>
@@ -54,7 +54,7 @@
     </header>
     
     <!--About me section-->
-    <section class ="container">
+    <section class ="container leFont">
       <div class="container" id="about">
         <h1>About me</h1>
         <img
@@ -74,7 +74,7 @@
     </section>
 
     <!--Section of Works-->
-    <section class ="container" id="works">
+    <section class ="container leFont" id="works">
       <h2>Works</h2>
       <!--Pokémon Party Builder-->
       <div class="container">
@@ -114,12 +114,10 @@
         <div class="card-body">
           <p class="card-text">Pokémon Party Builder</p>
           </div>
-          </div>
         </div>
       </div>
 <!--Password Generator-->
 <div class="container">
-<div class="row">
   <div class="col">
       <div class="card bg-transparent" 
       style="width: 25rem;">
@@ -128,38 +126,68 @@
         <div class="card-body">
           <p class="card-text">Password Generator</p>
         </div>
+        </div>
       </div>
     </div>
 </div>
     </section>
 
     <!--Contact me section-->
-    <section class="container" id="contact">
-      <h3><strong>Contact Me:</strong></h3>
-      <p>
-        Email:
-        <a href="ericabreig@gmail.com" alt="Link to my email address"
-          >ericabreig@gmail.com
-        </a>
-      </p>
-      <p>Phone: +1-703-283-3946</p>
-      <p>
-        <a href="https://github.com/EricaBreig" alt="link to github">Github</a>
-      </p>
-      <p>
-        <a
-          href="https://www.linkedin.com/in/erica-breig-0ba071ba/"
-          alt="link to LinkedIn"
-          >LinkedIn</a
-        >
-      </p>
-    </section>
+    <section class="container bg" id="contact">
+      <div class="card bg-transparent" style="width: 18rem;">
+        <img src="/assets/images/Mariannetail.gif" class="card-img-top" alt="a gif of Marianne the floofy cat swooshing her tail like a cat clock">
+        <div class="card-body bg">
+          <h5 class="card-title">Contact Me</h5>
+          <p class="card-text">Interested in working together? Below are the best ways to get in touch with me:</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item bg-transparent"> Email:
+            <a href="ericabreig@gmail.com" alt="Link to my email address"
+              >ericabreig@gmail.com
+            </a></li>
+          <li class="list-group-item bg-transparent"><p>Phone: +1-703-283-3946</p>
+            <p></li>
+          <li class="list-group-item bg-transparent"><a href="#" alt="Link to my resume"
+            >Resume
+          </a></li>
+        </ul>
+        <div class="card-body">
+          <a href="https://github.com/EricaBreig" alt="link to Erica's github" class="card-link">Github</a>
+          <a href="https://www.linkedin.com/in/erica-breig-0ba071ba/" alt="link to Erica's linkedIn" class="card-link">LinkedIn</a>
+        </div>
+      </div>
+</section>
+
+    <!-- <div class="media">
+      <img src="/assets/images/Mariannetail.gif" class="align-self-center mr-3" alt="a gif of Marianne the floofy cat swooshing her tail like a cat clock">
+      <div class="media-body">
+        <h5>Contact Me</h5>
+        <p>
+          Email:
+          <a href="ericabreig@gmail.com" alt="Link to my email address"
+            >ericabreig@gmail.com
+          </a>
+        </p>
+        <p>Phone: +1-703-283-3946</p>
+        <p class="mb-0"> Phone: +1-703-283-3946
+          <a href="https://github.com/EricaBreig" alt="link to github">Github</a>
+          <a
+            href="https://www.linkedin.com/in/erica-breig-0ba071ba/"
+            alt="link to LinkedIn"
+            >LinkedIn</a
+          >
+        </p>
+      </div>
+    </div>
+    </section> -->
 
     <!--Footer that takes you back to the top of the page-->
-    <footer class="container totop">
-      <a href="#top">Back to the top</a>
+    <footer class="container fixed-bottom bg-transparent leFont">
+      <a class="nav-footer leFont" href="#top">Back to the top</a>
     </footer>
+
+    <!--jquery and JS links-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="/assets/script.js" async defer></script>
+    <script src="/assets/script.js"></script>
   </body>
 </html>

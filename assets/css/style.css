@@ -1,26 +1,24 @@
 body {
   background: linear-gradient(to bottom, #e8dafb 0%, #caa8f5 75%);
 }
-header {
-  font-family: 'Courgette', cursive;
+
+.leFont {
+  font-family: "Courgette", cursive;
 }
-section {
-  font-family: 'Courgette', cursive;
-}
-footer {
-  font-family: 'Courgette', cursive;
-}
-nav {
-  font-family: 'Courgette', cursive;
+
+.nav-footer {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .my-color {
-  background-color:darkcyan;
+  background-color: darkcyan;
 }
 
 .jumbotron {
   color: white;
-  background-image: url("../assets/images/norwaysunset.jpg");
+  background-image: url("/assets/images/norwaysunset.jpg");
   background-position: center;
   background-repeat: no-repeat 0 0;
   background-size: cover;
