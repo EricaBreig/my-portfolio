@@ -18,7 +18,7 @@ body {
 
 .jumbotron {
   color: white;
-  background-image: url("/assets/images/norwaysunset.jpg");
+  background-image: url("../images/norwaysunset.jpg");
   background-position: center;
   background-repeat: no-repeat 0 0;
   background-size: cover;
