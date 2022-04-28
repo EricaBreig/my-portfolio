@@ -14,8 +14,9 @@ In this assignment, I learned the following:
 - How to properly utilize flexbox to create layouts
 - How to use a "hero image"
 - How to use images as links, and how to add buzz text over a link
+- utilizing bootstrap stylesheet for styling and responsiveness
 
-![Full Portfolio Image](/assets/images/ericasportfolio1.png "Erica's Portfolio")
+![Full Portfolio Image](/assets/images/ericasportfoliopage.png "Erica's Portfolio")
 
 #### Credit
 
